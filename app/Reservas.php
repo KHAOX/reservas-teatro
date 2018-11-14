@@ -8,8 +8,6 @@ class Reservas extends Model
 {
     protected $table = 'reservas';
 
-    //protected $fillable = ['usuario_id','row','column'];
-
     public function usuario()
     {
         return $this->belongsTo('App\usuarios');

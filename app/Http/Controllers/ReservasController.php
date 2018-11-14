@@ -12,8 +12,7 @@ class ReservasController extends Controller
     	$reservas = reservas::all();    	
     	$reservas->each(function($reservas){
     	    $reservas->usuario;
-    	}); 
-    	//dd($reservas);
+    	});     	
     	return view('reservas.index', compact('reservas'));
     }
 

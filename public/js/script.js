@@ -46,8 +46,6 @@ $(document).ready(function(){
 
 
 
-	//$('[data-toggle="popover"]').popover();
-
 	$('[data-toggle="popover"]').popover({
 	  title: function(){
 	    return $(this).data('title')+'<span class="close" style="margin-top: -5px">&times;</span>';
